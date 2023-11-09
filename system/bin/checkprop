@@ -1,0 +1,38 @@
+#! /bin/sh
+
+# 
+# Script to check if the correct properties are set! These properties are essential 
+# for services to recongnize this device as a first party amazon device
+#
+
+
+if [ "$#" -eq 2  ]; then
+	property=$(getprop | grep $1)
+	if [ "$property" ]; then
+		property=$(getprop $1)
+       		if [ "$property" = "$2" ]; then
+       			echo "$1 = $2"
+			echo "$1 is set correctly"
+        	else
+        		echo "ERROR!!! $1 is not equal to $2" 
+			exit 1
+		fi
+	
+
+	else
+		setprop $1 $2
+	fi
+
+
+elif [ "$#" -eq 1  ]; then
+	getprop $1
+
+
+elif [ "$#" -eq 0  ]; then
+	getprop
+  
+elif [ "$#" -gt 2  ]; then
+        echo "Usage : checkprop <property> <expected keyvalue>"
+        exit 1                                                 
+fi  
+

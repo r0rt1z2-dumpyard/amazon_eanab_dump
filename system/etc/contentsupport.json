@@ -1,0 +1,2239 @@
+{
+    "masterVersion": "2018-01-16T14:16:00Z", 
+    "supportPacks": [
+        {
+            "name": "e3osreadingfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "AmazonEmberBold.ttf", 
+                        "AmazonEmberBold-Italic.ttf", 
+                        "AmazonEmberBold-Bold.ttf", 
+                        "AmazonEmberBold-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold.ttf-displayname", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold.ttf-family", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-Italic.ttf-displayname", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-Italic.ttf-family", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-Bold.ttf-displayname", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-Bold.ttf-family", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-BoldItalic.ttf-displayname", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-BoldItalic.ttf-family", 
+                            "value": "Amazon Ember Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "AmazonEmberBold-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Caecilia.ttf", 
+                        "Caecilia-Italic.ttf", 
+                        "Caecilia-Bold.ttf", 
+                        "Caecilia-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Caecilia.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Italic.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Italic.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Bold.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Bold.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-BoldItalic.ttf-displayname", 
+                            "value": "Caecilia"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-BoldItalic.ttf-family", 
+                            "value": "Caecilia Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Caecilia-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "CaeciliaCondensed.ttf", 
+                        "CaeciliaCondensed-Italic.ttf", 
+                        "CaeciliaCondensed-Bold.ttf", 
+                        "CaeciliaCondensed-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed.ttf-displayname", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed.ttf-family", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-Italic.ttf-displayname", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-Italic.ttf-family", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-Bold.ttf-displayname", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-Bold.ttf-family", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-BoldItalic.ttf-displayname", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-BoldItalic.ttf-family", 
+                            "value": "Caecilia Condensed"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "CaeciliaCondensed-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Baskerville.ttf", 
+                        "Baskerville-Italic.ttf", 
+                        "Baskerville-Bold.ttf", 
+                        "Baskerville-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Baskerville.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Italic.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Italic.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Bold.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Bold.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-BoldItalic.ttf-displayname", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-BoldItalic.ttf-family", 
+                            "value": "Baskerville"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Baskerville-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Futura.ttf", 
+                        "Futura-Italic.ttf", 
+                        "Futura-Bold.ttf", 
+                        "Futura-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Futura.ttf-displayname", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura.ttf-family", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-Italic.ttf-displayname", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-Italic.ttf-family", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-Bold.ttf-displayname", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-Bold.ttf-family", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-BoldItalic.ttf-displayname", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-BoldItalic.ttf-family", 
+                            "value": "Futura"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Futura-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Helvetica.ttf", 
+                        "Helvetica-Italic.ttf", 
+                        "Helvetica-Bold.ttf", 
+                        "Helvetica-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Helvetica.ttf-displayname", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica.ttf-family", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-Italic.ttf-displayname", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-Italic.ttf-family", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-Bold.ttf-displayname", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-Bold.ttf-family", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-BoldItalic.ttf-displayname", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-BoldItalic.ttf-family", 
+                            "value": "Helvetica"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Helvetica-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "Palatino.ttf", 
+                        "Palatino-Italic.ttf", 
+                        "Palatino-Bold.ttf", 
+                        "Palatino-BoldItalic.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "Palatino.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Italic.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Italic.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Italic.ttf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Bold.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Bold.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-Bold.ttf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-BoldItalic.ttf-displayname", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-BoldItalic.ttf-family", 
+                            "value": "Palatino"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "Palatino-BoldItalic.ttf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "OpenDyslexic-Regular.otf", 
+                        "OpenDyslexic-Italic.otf", 
+                        "OpenDyslexic-Bold.otf", 
+                        "OpenDyslexic-BoldItalic.otf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Regular.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Regular.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Regular.otf-style", 
+                            "value": "Regular"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Italic.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Italic.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Italic.otf-style", 
+                            "value": "Italic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Bold.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Bold.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-Bold.otf-style", 
+                            "value": "Bold"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-BoldItalic.otf-displayname", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-BoldItalic.otf-family", 
+                            "value": "OpenDyslexic"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "OpenDyslexic-BoldItalic.otf-style", 
+                            "value": "Bold Italic"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/295965e64004a7911b57cbf338e651a0/signed_e3osreadingfonts.jar", 
+            "languages": [
+                "en", 
+                "de", 
+                "DE", 
+                "es", 
+                "fr", 
+                "it", 
+                "pt", 
+                "en-AU", 
+                "en-CA", 
+                "en-GB", 
+                "en-IT", 
+                "en-uk", 
+                "en-us"
+            ], 
+            "version": "2017-02-24T13:55:47Z", 
+            "type": "FONT_PACK", 
+            "size": "7831644"
+        }, 
+        {
+            "name": "jp-e3osreadingfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "TsukuMinPr5-Medium.ttf", 
+                        "TsukuMinPr5-Bold.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "TsukuMinPr5-Medium.ttf-displayname", 
+                            "value": "筑紫明朝"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TsukuMinPr5-Medium.ttf-family", 
+                            "value": "TsukushiMincho"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TsukuMinPr5-Medium.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TsukuMinPr5-Bold.ttf-displayname", 
+                            "value": "筑紫明朝"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TsukuMinPr5-Bold.ttf-family", 
+                            "value": "TsukushiMincho"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "TsukuMinPr5-Bold.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/0fe91d34a8dc7655318b4ee18214a3a5/signed_jp-e3osreadingfonts.jar", 
+            "languages": [
+                "ja", 
+                "jp-JP", 
+                "jp-Jpan"
+            ], 
+            "version": "2016-12-06T15:18:00Z", 
+            "type": "FONT_PACK", 
+            "size": "24768392"
+        }, 
+        {
+            "name": "cn-e3osreadingfonts", 
+            "bundles": [
+                {
+                    "files": [
+                        "STKaiTi.ttf", 
+                        "STKaiBold.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "STKaiTi.ttf-displayname", 
+                            "value": "楷体"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiTi.ttf-family", 
+                            "value": "STKaiti"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiTi.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiBold.ttf-displayname", 
+                            "value": "楷体"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiBold.ttf-family", 
+                            "value": "STKaiti"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STKaiBold.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }, 
+                {
+                    "files": [
+                        "STYuanMedium.ttf", 
+                        "STYuanBold.ttf"
+                    ], 
+                    "path": "/fonts/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "STYuanMedium.ttf-displayname", 
+                            "value": "圆体"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanMedium.ttf-family", 
+                            "value": "STZhongyuan"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanMedium.ttf-style", 
+                            "value": "Medium"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanBold.ttf-displayname", 
+                            "value": "圆体"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanBold.ttf-family", 
+                            "value": "STZhongyuan"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "STYuanBold.ttf-style", 
+                            "value": "Bold"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/7a6838ee6e735069ca1d4de4858f1ce3/signed_cn-e3osreadingfonts.jar", 
+            "languages": [
+                "zh", 
+                "zh-cn", 
+                "zh-Hans", 
+                "zh-HANS", 
+                "zh-CN"
+            ], 
+            "version": "2018-01-16T14:16:00Z", 
+            "type": "FONT_PACK", 
+            "size": "64262188"
+        }, 
+        {
+            "display_name": "English (United Kingdom)", 
+            "name": "Amazon_1004_r1-11_ENubUNUK_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-11_ENubUNUK_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/93d6476431dd2c518552e0d0abdb4056/signed_Amazon_1004_r1-11_ENubUNUK_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "en-GB", 
+                "en-CA", 
+                "en-NZ", 
+                "en-IN", 
+                "en-ZA", 
+                "en-HK", 
+                "en-IE", 
+                "en-MO", 
+                "en-SG"
+            ], 
+            "version": "2015-12-16T10:32:33Z", 
+            "type": "DICTIONARY", 
+            "size": "4815189"
+        }, 
+        {
+            "display_name": "Deutsch", 
+            "name": "Amazon_1004_r1-14_DEusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-14_DEusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/0bb7527f34c4279e241da4a8afcc748f/signed_Amazon_1004_r1-14_DEusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "de"
+            ], 
+            "version": "2015-12-16T10:30:43Z", 
+            "type": "DICTIONARY", 
+            "size": "5190210"
+        }, 
+        {
+            "display_name": "italiano", 
+            "name": "Amazon_1004_r1-14_ITusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-14_ITusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/21dd7cb748cfe6f6456b8f908ee5720e/signed_Amazon_1004_r1-14_ITusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "it"
+            ], 
+            "version": "2015-12-16T10:42:10Z", 
+            "type": "DICTIONARY", 
+            "size": "5065906"
+        }, 
+        {
+            "display_name": "français", 
+            "name": "Amazon_1004_r1-17_FRusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-17_FRusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/1ab5d67982c52d040031be9d2e329a29/signed_Amazon_1004_r1-17_FRusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "fr"
+            ], 
+            "version": "2015-12-16T10:38:27Z", 
+            "type": "DICTIONARY", 
+            "size": "4896295"
+        }, 
+        {
+            "display_name": "español", 
+            "name": "Amazon_1004_r1-19_ESusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-19_ESusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/8795ff52d3377d175d1b6fc73b394f24/signed_Amazon_1004_r1-19_ESusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "es"
+            ], 
+            "version": "2015-12-16T10:35:00Z", 
+            "type": "DICTIONARY", 
+            "size": "4964228"
+        }, 
+        {
+            "display_name": "Afrikaans", 
+            "name": "Amazon_1004_r1-1_AFlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_AFlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/7688d563470884b64786edb1fa51c458/signed_Amazon_1004_r1-1_AFlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "af"
+            ], 
+            "version": "2015-12-16T10:26:54Z", 
+            "type": "DICTIONARY", 
+            "size": "4104659"
+        }, 
+        {
+            "display_name": "azərbaycan", 
+            "name": "Amazon_1004_r1-1_AZlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_AZlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/af4c11b49f3d6064d32da8ebab610f2c/signed_Amazon_1004_r1-1_AZlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "az"
+            ], 
+            "version": "2015-12-16T10:28:06Z", 
+            "type": "DICTIONARY", 
+            "size": "4851326"
+        }, 
+        {
+            "display_name": "հայերեն", 
+            "name": "Amazon_1004_r1-1_HYlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_HYlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/d86fdb4df46adbe6a5984c143ea673da/signed_Amazon_1004_r1-1_HYlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "hy"
+            ], 
+            "version": "2015-12-16T10:41:07Z", 
+            "type": "DICTIONARY", 
+            "size": "4530184"
+        }, 
+        {
+            "display_name": "қазақ тілі", 
+            "name": "Amazon_1004_r1-1_KKlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_KKlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/3afedd96c6f6c6efbcfad505c3988be5/signed_Amazon_1004_r1-1_KKlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "kk"
+            ], 
+            "version": "2015-12-16T10:43:05Z", 
+            "type": "DICTIONARY", 
+            "size": "4016322"
+        }, 
+        {
+            "display_name": "português (Brasil)", 
+            "name": "Amazon_1004_r1-1_PTusUNBR_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_PTusUNBR_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/98138a38dd0659bf5c3c3de4eba75789/signed_Amazon_1004_r1-1_PTusUNBR_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pt-BR"
+            ], 
+            "version": "2015-12-16T10:47:17Z", 
+            "type": "DICTIONARY", 
+            "size": "5030056"
+        }, 
+        {
+            "display_name": "português (Portugal)", 
+            "name": "Amazon_1004_r1-1_PTusUNPT_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-1_PTusUNPT_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/1a10fa5dbc0626aea21bfda5b6a74dff/signed_Amazon_1004_r1-1_PTusUNPT_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pt-PT"
+            ], 
+            "version": "2015-12-16T10:47:51Z", 
+            "type": "DICTIONARY", 
+            "size": "5013332"
+        }, 
+        {
+            "display_name": "español (Latinoamérica)", 
+            "name": "Amazon_1004_r1-2_ESusUNlatam_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_ESusUNlatam_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/e7246d208788bcc29154d0e70bd955da/signed_Amazon_1004_r1-2_ESusUNlatam_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "es-419", 
+                "es-AR", 
+                "es-BO", 
+                "es-CL", 
+                "es-CO", 
+                "es-CR", 
+                "es-CU", 
+                "es-DO", 
+                "es-EA", 
+                "es-EC", 
+                "es-ES", 
+                "es-GQ", 
+                "es-GT", 
+                "es-HN", 
+                "es-IC", 
+                "es-MX", 
+                "es-NI", 
+                "es-PA", 
+                "es-PE", 
+                "es-PH", 
+                "es-PR", 
+                "es-PY", 
+                "es-SV", 
+                "es-US", 
+                "es-UY", 
+                "es-VE"
+            ], 
+            "version": "2015-12-16T10:35:41Z", 
+            "type": "DICTIONARY", 
+            "size": "4937043"
+        }, 
+        {
+            "display_name": "euskara", 
+            "name": "Amazon_1004_r1-2_EUlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_EUlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/a3380d414bf23e42c9a21325423049ee/signed_Amazon_1004_r1-2_EUlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "eu"
+            ], 
+            "version": "2015-12-16T10:36:43Z", 
+            "type": "DICTIONARY", 
+            "size": "4144526"
+        }, 
+        {
+            "display_name": "français (Canada)", 
+            "name": "Amazon_1004_r1-2_FRusUNCA_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_FRusUNCA_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/b006efea0d1bcda31525ebe3b75ef623/signed_Amazon_1004_r1-2_FRusUNCA_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "fr-CA"
+            ], 
+            "version": "2015-12-16T10:37:51Z", 
+            "type": "DICTIONARY", 
+            "size": "4874133"
+        }, 
+        {
+            "display_name": "ქართული", 
+            "name": "Amazon_1004_r1-2_KAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_KAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/e6d4e0a58ec7014afb4983bc0e113da0/signed_Amazon_1004_r1-2_KAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ka"
+            ], 
+            "version": "2015-12-16T10:42:36Z", 
+            "type": "DICTIONARY", 
+            "size": "4256670"
+        }, 
+        {
+            "display_name": "ไทย", 
+            "name": "Amazon_1004_r1-2_THlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_THlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/64f0a5a7475b7f5838bb4a487843bec5/signed_Amazon_1004_r1-2_THlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "th"
+            ], 
+            "version": "2015-12-16T10:52:29Z", 
+            "type": "DICTIONARY", 
+            "size": "4386670"
+        }, 
+        {
+            "display_name": "български", 
+            "name": "Amazon_1004_r1-3_BGlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_BGlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/e52a7aa2c87f0bc448033d03e491afd9/signed_Amazon_1004_r1-3_BGlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "bg"
+            ], 
+            "version": "2015-12-16T10:28:41Z", 
+            "type": "DICTIONARY", 
+            "size": "4662373"
+        }, 
+        {
+            "display_name": "eesti", 
+            "name": "Amazon_1004_r1-3_ETlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_ETlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/b275bba7983426766a68f7c52cbd1c8d/signed_Amazon_1004_r1-3_ETlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "et"
+            ], 
+            "version": "2015-12-16T10:36:14Z", 
+            "type": "DICTIONARY", 
+            "size": "3535893"
+        }, 
+        {
+            "display_name": "فارسی", 
+            "name": "Amazon_1004_r1-3_FAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_FAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/b043184c2bcd3a7b379701ba17c66ba5/signed_Amazon_1004_r1-3_FAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "fa"
+            ], 
+            "version": "2015-12-16T10:37:12Z", 
+            "type": "DICTIONARY", 
+            "size": "4383577"
+        }, 
+        {
+            "display_name": "galego", 
+            "name": "Amazon_1004_r1-3_GLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_GLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/f91a5ee807e15874db337836f5a1bc42/signed_Amazon_1004_r1-3_GLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "gl"
+            ], 
+            "version": "2015-12-16T10:38:48Z", 
+            "type": "DICTIONARY", 
+            "size": "2865548"
+        }, 
+        {
+            "display_name": "íslenska", 
+            "name": "Amazon_1004_r1-3_ISlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_ISlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/dc9e8f6fba137e7b8798e1f06cd68892/signed_Amazon_1004_r1-3_ISlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "is"
+            ], 
+            "version": "2015-12-16T10:41:47Z", 
+            "type": "DICTIONARY", 
+            "size": "2217220"
+        }, 
+        {
+            "display_name": "lietuvių", 
+            "name": "Amazon_1004_r1-3_LTlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_LTlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/12c37918d1fce036b171cec5a5b28a56/signed_Amazon_1004_r1-3_LTlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "lt"
+            ], 
+            "version": "2015-12-16T10:44:49Z", 
+            "type": "DICTIONARY", 
+            "size": "2871068"
+        }, 
+        {
+            "display_name": "latviešu", 
+            "name": "Amazon_1004_r1-3_LVlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_LVlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/ed90d25e4fecede4dd9ba6019a1f63ba/signed_Amazon_1004_r1-3_LVlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "lv"
+            ], 
+            "version": "2015-12-16T10:45:09Z", 
+            "type": "DICTIONARY", 
+            "size": "4215217"
+        }, 
+        {
+            "display_name": "Bahasa Melayu", 
+            "name": "Amazon_1004_r1-3_MSlbUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_MSlbUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/ad783d4cc701bb215973f7b2c3a7faaf/signed_Amazon_1004_r1-3_MSlbUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ms"
+            ], 
+            "version": "2015-12-16T10:45:23Z", 
+            "type": "DICTIONARY", 
+            "size": "2168318"
+        }, 
+        {
+            "display_name": "română", 
+            "name": "Amazon_1004_r1-3_ROlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_ROlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/bd8990c2a26d158c52fb63d63874e5e5/signed_Amazon_1004_r1-3_ROlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ro"
+            ], 
+            "version": "2015-12-16T10:48:57Z", 
+            "type": "DICTIONARY", 
+            "size": "4424361"
+        }, 
+        {
+            "display_name": "Shqip", 
+            "name": "Amazon_1004_r1-3_SQlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_SQlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/c7ca218c517af6fef7d630246ca983a6/signed_Amazon_1004_r1-3_SQlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sq"
+            ], 
+            "version": "2015-12-16T10:50:59Z", 
+            "type": "DICTIONARY", 
+            "size": "4588070"
+        }, 
+        {
+            "display_name": "Српски", 
+            "name": "Amazon_1004_r1-3_SRlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_SRlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/4ba52fd166b0dbe987e230fc4bfd3e4b/signed_Amazon_1004_r1-3_SRlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sr"
+            ], 
+            "version": "2015-12-16T10:51:28Z", 
+            "type": "DICTIONARY", 
+            "size": "4722772"
+        }, 
+        {
+            "display_name": "українська", 
+            "name": "Amazon_1004_r1-3_UKlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_UKlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/430f727d975ab5ce9db885ab80106f58/signed_Amazon_1004_r1-3_UKlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "uk"
+            ], 
+            "version": "2015-12-16T10:53:13Z", 
+            "type": "DICTIONARY", 
+            "size": "4416929"
+        }, 
+        {
+            "display_name": "čeština", 
+            "name": "Amazon_1004_r1-4_CSlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_CSlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/eaf7475f4b10ada18358da2933d24079/signed_Amazon_1004_r1-4_CSlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "cs"
+            ], 
+            "version": "2015-12-16T10:29:32Z", 
+            "type": "DICTIONARY", 
+            "size": "2676852"
+        }, 
+        {
+            "display_name": "עברית", 
+            "name": "Amazon_1004_r1-4_HElsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HElsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/27b29f5ef3787ed2afc9958657b3d8b0/signed_Amazon_1004_r1-4_HElsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "he", 
+                "iw"
+            ], 
+            "version": "2015-12-16T10:39:10Z", 
+            "type": "DICTIONARY", 
+            "size": "3401728"
+        }, 
+        {
+            "display_name": "हिंदी", 
+            "name": "Amazon_1004_r1-4_HIlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HIlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/326715be91565f14894d28ddcceb9df1/signed_Amazon_1004_r1-4_HIlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "hi"
+            ], 
+            "version": "2015-12-16T10:39:31Z", 
+            "type": "DICTIONARY", 
+            "size": "4426789"
+        }, 
+        {
+            "display_name": "hrvatski", 
+            "name": "Amazon_1004_r1-4_HRlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HRlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/115fddd43cba6aef4efa278a37fd4773/signed_Amazon_1004_r1-4_HRlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "hr"
+            ], 
+            "version": "2015-12-16T10:40:29Z", 
+            "type": "DICTIONARY", 
+            "size": "4909429"
+        }, 
+        {
+            "display_name": "Bahasa Indonesia", 
+            "name": "Amazon_1004_r1-4_IDlbUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_IDlbUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/e62614bbbc1bffb7359699bf26a18342/signed_Amazon_1004_r1-4_IDlbUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "id", 
+                "in"
+            ], 
+            "version": "2015-12-16T10:41:34Z", 
+            "type": "DICTIONARY", 
+            "size": "4045170"
+        }, 
+        {
+            "display_name": "slovenčina", 
+            "name": "Amazon_1004_r1-4_SKlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_SKlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/2dbe8c0f1e44718f19de17827be942e8/signed_Amazon_1004_r1-4_SKlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sk"
+            ], 
+            "version": "2015-12-16T10:49:58Z", 
+            "type": "DICTIONARY", 
+            "size": "4517630"
+        }, 
+        {
+            "display_name": "slovenščina", 
+            "name": "Amazon_1004_r1-4_SLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_SLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/d12bef90d1901218d0e50e88bf8920b4/signed_Amazon_1004_r1-4_SLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sl"
+            ], 
+            "version": "2015-12-16T10:50:28Z", 
+            "type": "DICTIONARY", 
+            "size": "4778085"
+        }, 
+        {
+            "display_name": "tl", 
+            "name": "Amazon_1004_r1-4_TLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_TLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/a65fc9f3da55739d5a921264d31ab9d8/signed_Amazon_1004_r1-4_TLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "tl"
+            ], 
+            "version": "2015-12-16T10:52:48Z", 
+            "type": "DICTIONARY", 
+            "size": "3062303"
+        }, 
+        {
+            "display_name": "English", 
+            "name": "Amazon_1004_r1-57_ENubUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-57_ENubUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/422b83d8327814d6eca00ff7aa86e5ea/signed_Amazon_1004_r1-57_ENubUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "en"
+            ], 
+            "version": "2015-12-16T10:33:47Z", 
+            "type": "DICTIONARY", 
+            "size": "4826182"
+        }, 
+        {
+            "display_name": "Ελληνικά", 
+            "name": "Amazon_1004_r1-5_ELusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-5_ELusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/766d6ddb51c252e29140bb05d4fc6ddb/signed_Amazon_1004_r1-5_ELusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "el"
+            ], 
+            "version": "2015-12-16T10:31:20Z", 
+            "type": "DICTIONARY", 
+            "size": "5054079"
+        }, 
+        {
+            "display_name": "English (Australia)", 
+            "name": "Amazon_1004_r1-5_ENubUNAU_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-5_ENubUNAU_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/da0168c14f3a35794daa4b6d3b45532b/signed_Amazon_1004_r1-5_ENubUNAU_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "en-AU"
+            ], 
+            "version": "2015-12-16T10:31:56Z", 
+            "type": "DICTIONARY", 
+            "size": "4799422"
+        }, 
+        {
+            "display_name": "Tiếng Việt", 
+            "name": "Amazon_1004_r1-5_VIlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-5_VIlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/8929a81837361e46840b42b7cbdfa6ce/signed_Amazon_1004_r1-5_VIlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "vi"
+            ], 
+            "version": "2015-12-16T10:53:39Z", 
+            "type": "DICTIONARY", 
+            "size": "4167863"
+        }, 
+        {
+            "display_name": "العربية", 
+            "name": "Amazon_1004_r1-6_ARlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_ARlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/5c921a8bd2758379ec7b911b6aff8c6e/signed_Amazon_1004_r1-6_ARlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ar"
+            ], 
+            "version": "2015-12-16T10:27:30Z", 
+            "type": "DICTIONARY", 
+            "size": "5309540"
+        }, 
+        {
+            "display_name": "català", 
+            "name": "Amazon_1004_r1-6_CAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_CAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/39789e42b2671c3b630317efe0a8994f/signed_Amazon_1004_r1-6_CAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ca"
+            ], 
+            "version": "2015-12-16T10:29:11Z", 
+            "type": "DICTIONARY", 
+            "size": "4579878"
+        }, 
+        {
+            "display_name": "dansk", 
+            "name": "Amazon_1004_r1-6_DAusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_DAusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/73d5cfa52ff10879340e2764a02fa733/signed_Amazon_1004_r1-6_DAusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "da"
+            ], 
+            "version": "2015-12-16T10:30:04Z", 
+            "type": "DICTIONARY", 
+            "size": "4871055"
+        }, 
+        {
+            "display_name": "Nederlands", 
+            "name": "Amazon_1004_r1-6_NLusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_NLusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/7c42f7609ba845a672676ee9a247ca6e/signed_Amazon_1004_r1-6_NLusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "nl"
+            ], 
+            "version": "2015-12-16T10:45:46Z", 
+            "type": "DICTIONARY", 
+            "size": "5283938"
+        }, 
+        {
+            "display_name": "norsk", 
+            "name": "Amazon_1004_r1-6_NOusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_NOusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/f6d4697dd433a5e456084d3ae4b1c9ef/signed_Amazon_1004_r1-6_NOusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "no", 
+                "nb"
+            ], 
+            "version": "2015-12-16T10:46:20Z", 
+            "type": "DICTIONARY", 
+            "size": "5007691"
+        }, 
+        {
+            "display_name": "polski", 
+            "name": "Amazon_1004_r1-6_PLusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_PLusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/5d73387d171f2a7e125d8f985dcace0c/signed_Amazon_1004_r1-6_PLusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pl"
+            ], 
+            "version": "2015-12-16T10:46:52Z", 
+            "type": "DICTIONARY", 
+            "size": "4941429"
+        }, 
+        {
+            "display_name": "svenska", 
+            "name": "Amazon_1004_r1-6_SVusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-6_SVusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/e6c4643fb0fe86186865e5063cc1aa0a/signed_Amazon_1004_r1-6_SVusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "sv"
+            ], 
+            "version": "2015-12-16T10:51:59Z", 
+            "type": "DICTIONARY", 
+            "size": "5014418"
+        }, 
+        {
+            "display_name": "русский", 
+            "name": "Amazon_1004_r1-8_RUusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-8_RUusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/edc3fbf0f6331949950fe6df11f67d1e/signed_Amazon_1004_r1-8_RUusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ru"
+            ], 
+            "version": "2015-12-16T10:49:27Z", 
+            "type": "DICTIONARY", 
+            "size": "5057627"
+        }, 
+        {
+            "display_name": "português", 
+            "name": "Amazon_1004_r1-9_PTusUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-9_PTusUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/864f987be571b137214f4e8959b69916/signed_Amazon_1004_r1-9_PTusUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "pt"
+            ], 
+            "version": "2015-12-16T10:48:26Z", 
+            "type": "DICTIONARY", 
+            "size": "4975263"
+        }, 
+        {
+            "display_name": "Türkçe", 
+            "name": "Amazon_1004_r1-2_TRlsUN_xt9_HC.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-2_TRlsUN_xt9_HC.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/d9c079318452f063d478d7c106576fa4/signed_Amazon_1004_r1-2_TRlsUN_xt9_HC.ldb.jar", 
+            "languages": [
+                "tr"
+            ], 
+            "version": "2015-12-16T10:52:52Z", 
+            "type": "DICTIONARY", 
+            "size": "840139"
+        }, 
+        {
+            "display_name": "suomi", 
+            "name": "Amazon_1004_r1-3_FIusUN_xt9_HC.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-3_FIusUN_xt9_HC.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/83a910698bdbdf051261277b61393ad1/signed_Amazon_1004_r1-3_FIusUN_xt9_HC.ldb.jar", 
+            "languages": [
+                "fi"
+            ], 
+            "version": "2015-12-16T10:37:19Z", 
+            "type": "DICTIONARY", 
+            "size": "950006"
+        }, 
+        {
+            "display_name": "magyar", 
+            "name": "Amazon_1004_r1-4_HUlsUN_xt9_HC.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1004_r1-4_HUlsUN_xt9_HC.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/2fe52ed08cba39be2c6add5b48b4f681/signed_Amazon_1004_r1-4_HUlsUN_xt9_HC.ldb.jar", 
+            "languages": [
+                "hu"
+            ], 
+            "version": "2015-12-16T10:40:41Z", 
+            "type": "DICTIONARY", 
+            "size": "1446726"
+        }, 
+        {
+            "display_name": "ગુજરાતી", 
+            "name": "Amazon_1003_r1-4_GUlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-4_GUlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/2d36f9cc19b85658fb53c2123d09d59a/signed_Amazon_1003_r1-4_GUlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "gu"
+            ], 
+            "version": "2015-12-28T13:34:20Z", 
+            "type": "DICTIONARY", 
+            "size": "4918884"
+        }, 
+        {
+            "display_name": "मराठी", 
+            "name": "Amazon_1003_r1-4_MRlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-4_MRlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/c0602ac5923a034259986caabfb1595a/signed_Amazon_1003_r1-4_MRlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "mr", 
+                "mr-IN"
+            ], 
+            "version": "2015-12-28T13:33:46Z", 
+            "type": "DICTIONARY", 
+            "size": "4759468"
+        }, 
+        {
+            "display_name": "தமிழ்", 
+            "name": "Amazon_1003_r1-4_TAlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-4_TAlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/3f71798e98d273f32aa36055034af4bb/signed_Amazon_1003_r1-4_TAlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ta", 
+                "ta-IN"
+            ], 
+            "version": "2015-12-28T13:35:36Z", 
+            "type": "DICTIONARY", 
+            "size": "5058592"
+        }, 
+        {
+            "display_name": "മലയാളം", 
+            "name": "Amazon_1003_r1-5_MLlsUN_xt9_ALM3.ldb", 
+            "bundles": [
+                {
+                    "files": [
+                        "Amazon_1003_r1-5_MLlsUN_xt9_ALM3.ldb"
+                    ], 
+                    "path": "/dictionaries/", 
+                    "properties": [
+                        {
+                            "type": "string", 
+                            "name": "vendor", 
+                            "value": "nuance"
+                        }
+                    ]
+                }
+            ], 
+            "source_url": "eink/3e9f7650fc12e8e1b41ee7b4a8a9fef1/signed_Amazon_1003_r1-5_MLlsUN_xt9_ALM3.ldb.jar", 
+            "languages": [
+                "ml", 
+                "ml-IN"
+            ], 
+            "version": "2015-12-28T13:34:54Z", 
+            "type": "DICTIONARY", 
+            "size": "5063087"
+        }
+    ]
+}

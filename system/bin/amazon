@@ -1,0 +1,41 @@
+#! /bin/sh
+
+#
+# Script to initiate AndE specific environment variables
+#
+#
+
+ip_addr="192.168.15.244"
+netmask="255.255.255.0"
+mfg="Amazon"
+board="wario"
+
+
+startUSB() {
+
+	ifconfig usb0 $1 netmask $2
+}
+loadAndE() {
+
+	modprobe fuse
+	modprobe cyttsp4_i2c
+	modprobe cyttsp4_mt_b
+	modprobe cyttsp4_core
+}
+
+
+startUSB $ip_addr $netmask
+loadAndE
+cat /proc/usid | busybox xargs checkprop "ro.serialno"
+checkprop "ro.product.manufacturer" "$mfg" 
+checkprop "ro.hardware" "$mfg"
+checkprop "ro.product.brand" "$mfg"
+echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+#todo
+#checkprop "ro.product.board" "$board"
+#checkprop "ro.product.device" "$board"
+
+
+
+
