@@ -1,0 +1,15 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+page_size=2048
+kernel_size=4819728
+ramdisk_size=763504
+second_size=34650
+base_addr=0x82800000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0x7d800000
+cmd_line='console=ttymxc0,115200 init=/init androidboot.console=ttymxc0 consoleblank=0 androidboot.hardware=freescale androidboot.selinux=enforcing uart_at_4M'
+board=""
+format=gzip

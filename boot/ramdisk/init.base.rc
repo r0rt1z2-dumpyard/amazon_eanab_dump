@@ -1,0 +1,132 @@
+# Copyright (C) 2016 Amazon
+#
+# Freescale configuration
+#
+
+on early-init
+    mount debugfs /sys/kernel/debug /sys/kernel/debug
+
+on init
+    mkdir /config 0500 root root
+    mkdir /device 0771 system system
+    mkdir /mnt/media_rw/extsd 0755 system system
+    symlink /mnt/media_rw/extsd /storage/extsd
+    mkdir /mnt/media_rw/udisk 0755 system system
+    symlink /mnt/media_rw/udisk /storage/udisk
+
+    # shared memory used by middleware
+    mkdir /mnt/shm  0775 media system
+    mount tmpfs tmpfs /mnt/shm mode=0775,uid=1013,gid=1000,size=1m
+
+    mkdir /dev/cpuctl/apps
+    chown system system /dev/cpuctl/apps/tasks
+    chmod 0660 /dev/cpuctl/apps/tasks
+    write /dev/cpuctl/apps/cpu.shares 1024
+    write /dev/cpuctl/apps/cpu.rt_runtime_us 800000
+    write /dev/cpuctl/apps/cpu.rt_period_us 1000000
+
+    mkdir /dev/cpuctl/apps/bg_non_interactive
+    chown system system /dev/cpuctl/apps/bg_non_interactive/tasks
+    chmod 0660 /dev/cpuctl/apps/bg_non_interactive/tasks
+
+    write /dev/cpuctl/apps/bg_non_interactive/cpu.shares 52
+    write /dev/cpuctl/apps/bg_non_interactive/cpu.rt_runtime_us 700000
+    write /dev/cpuctl/apps/bg_non_interactive/cpu.rt_period_us 1000000
+
+on post-fs
+    # This may have been created by the recovery system with the wrong context.
+    restorecon /cache/recovery
+
+on post-fs-data
+    # If there is no fs-post-data action in the init.<device>.rc file, you
+    # must uncomment this line, otherwise encrypted filesystems
+    # won't work.
+    # Set indication (checked by vold) that we have finished this action
+    setprop vold.post_fs_data_done 1
+
+on boot
+    # Tweak the mmc device read ahead buffer size
+    write /sys/block/mmcblk0/queue/read_ahead_kb 2048
+    write /sys/block/mmcblk1/queue/read_ahead_kb 2048
+
+    # Define fsl avi/aac/asf/mkv/flv/flac format support
+    setprop ro.FSL_AVI_PARSER 1
+    setprop ro.FSL_AAC_PARSER 1
+    setprop ro.FSL_ASF_PARSER 0
+    setprop ro.FSL_FLV_PARSER 1
+    setprop ro.FSL_MKV_PARSER 1
+    setprop ro.FSL_FLAC_PARSER 1
+    setprop ro.FSL_MPG2_PARSER 1
+#real parser and decoder support
+    setprop ro.FSL_REAL_PARSER 0
+
+    # don't preload OpenGL in Zygote, the Vivante drivers do not like it
+    setprop ro.zygote.disable_gl_preload true
+
+    # ALSA mixer naming define
+    setprop alsa.mixer.playback.master Playback
+    setprop alsa.mixer.capture.master Capture
+    setprop alsa.mixer.playback.speaker Playback
+    setprop alsa.mixer.playback.headset Headphone
+    setprop alsa.mixer.capture.headset Capture
+
+    # Prepare for wifi
+    setprop wifi.interface wlan0
+    setprop wifi.ap.interface wlan0
+
+    # Prepare for bluetooth
+    chmod 665 /sys/class/rfkill/rfkill0/state
+    chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
+    write /sys/class/rfkill/rfkill0/state 0
+
+    # Prepare for RIL
+    setprop gsm.ril.delay 15
+    setprop ro.ril.wake_lock_timeout 300
+
+#  Enable adb security for JB4.2.2
+    setprop ro.adb.secure 0
+    setprop sys.usb.state adb
+
+#  Set GPU 3D minimum clock to 3/64
+   write /sys/bus/platform/drivers/galcore/gpu3DMinClock 3
+
+    class_start main
+    class_start late_start
+
+service devicetype /system/bin/devicetype_service
+    class main
+    oneshot
+
+service drm /system/bin/drmserver
+    class main
+    user drm
+    group drm system inet drmrpc
+
+service media /system/bin/mediaserver
+    class main
+    user media
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+    ioprio rt 4
+
+service keystore /system/bin/keystore /data/misc/keystore
+    class main
+    user keystore
+    group keystore drmrpc
+
+##############################################################
+# Source: device/intel/mixins/groups/debugfs/default/init.rc
+##############################################################
+on early-init
+    # Mount debugfs and make it writable so that debuggerd can
+    # create stack traces, required with newer kernels
+    mount debugfs debugfs /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+
+# ------------------ END MIX-IN DEFINITIONS ------------------
+on early-boot
+# Needed by surfaceflinger to enable it to open trace_marker
+# on start without file permissions error.
+    chmod 0222 /sys/kernel/debug/tracing/trace_marker
+# tracefs is mounted after 1st access to it
+    chmod 0755 /sys/kernel/debug/tracing
+

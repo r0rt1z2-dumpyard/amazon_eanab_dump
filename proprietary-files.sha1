@@ -1,0 +1,58 @@
+# All blobs are from "eanab-user 5.1.1 2.1.0-ga-rc3 .6.6.0_user_660655220 release-keys" and are pinned with sha1sum values
+
+# Audio
+
+# Camera
+
+# DRM
+
+# DRM-Widevine
+vendor/lib/mediadrm/libdrmclearkeyplugin.so|5e8da2f552ebeed861dadf776026def1d76b308a
+
+# Display-Hardware
+
+# Firmware
+vendor/firmware/fw_bcmdhd.bin|e73dbb131542a44229442a395e2637d39337870b
+vendor/firmware/fw_bcmdhd_apsta.bin|0cff9b66baf5927bd84ffd44c7c8b02acd1d8bd2
+vendor/firmware/nvram.txt|22784aacbda84c17abf5bb4057613663d8fa5157
+
+# GPS
+
+# GPS-Hardware
+
+# Graphics
+
+# Listen
+
+# Media
+
+# Media-Hardware
+
+# Perf
+
+# Postprocessing
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Time
+
+# WiFi
+
+# Misc
+vendor/data/amz.rsa|f5bfa5f48f3962ecc4110b0694da1bc5f0f9ffb3
+vendor/data/trapz_scripts.tar.gz|8008bc7c840ba4ed11d8188d83490548824c7efb
+vendor/data/trapz_xml/1.txt|5448d284632179df9720795ac752e2a835906566
+vendor/data/trapz_xml/2.txt|7e081cc7b5e45c15191f1c31ca485ece5bbb8986
+vendor/data/trapz_xml/3.txt|6f4d0688a8cee717398b5c778cf43a09127856be
+vendor/data/trapz_xml/4.txt|972b53ccbede05635bec999933cdeeec7811195d
+vendor/data/ttp/facebook-orca.rsa|e0358fec9a72ecb2ebae0b77577fd21a89123dfa
+vendor/data/ttp/qq.rsa|b90a8d638b3756951e9057a7f1163e2097e85e46
+vendor/data/ttp/skype-phoenix.rsa|24f8ef33d6c02c566f2ad198342354744a6f1b6f
+vendor/data/ttp/skype-raider.rsa|56484accdf9461b83c3886c195ce9857215f6e38
+vendor/data/ttp/tecla-2013.rsa|4c63a22940efd31c43bb44393d34e00be7911405
+vendor/data/ttp/tecla-2014.rsa|e0812332fb4838ebbdd813843049b0f38343b020
+vendor/data/ttp/viber-voip.rsa|21e52e1bdf7e0740e39f6cdac38df6b373bb13fd

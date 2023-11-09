@@ -1,0 +1,58 @@
+# All blobs from eanab-user 5.1.1 2.1.0-ga-rc3 .6.6.0_user_660655220 release-keys, unless pinned
+
+# Audio
+
+# Camera
+
+# DRM
+
+# DRM-Widevine
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+
+# Display-Hardware
+
+# Firmware
+vendor/firmware/fw_bcmdhd.bin
+vendor/firmware/fw_bcmdhd_apsta.bin
+vendor/firmware/nvram.txt
+
+# GPS
+
+# GPS-Hardware
+
+# Graphics
+
+# Listen
+
+# Media
+
+# Media-Hardware
+
+# Perf
+
+# Postprocessing
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Time
+
+# WiFi
+
+# Misc
+vendor/data/amz.rsa
+vendor/data/trapz_scripts.tar.gz
+vendor/data/trapz_xml/1.txt
+vendor/data/trapz_xml/2.txt
+vendor/data/trapz_xml/3.txt
+vendor/data/trapz_xml/4.txt
+vendor/data/ttp/facebook-orca.rsa
+vendor/data/ttp/qq.rsa
+vendor/data/ttp/skype-phoenix.rsa
+vendor/data/ttp/skype-raider.rsa
+vendor/data/ttp/tecla-2013.rsa
+vendor/data/ttp/tecla-2014.rsa
+vendor/data/ttp/viber-voip.rsa

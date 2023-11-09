@@ -1,0 +1,120 @@
+#line 1 "external/sepolicy/property_contexts"
+##########################
+# property service keys
+#
+#
+net.rmnet               u:object_r:net_radio_prop:s0
+net.gprs                u:object_r:net_radio_prop:s0
+net.ppp                 u:object_r:net_radio_prop:s0
+net.qmi                 u:object_r:net_radio_prop:s0
+net.lte                 u:object_r:net_radio_prop:s0
+net.cdma                u:object_r:net_radio_prop:s0
+net.dns                 u:object_r:net_radio_prop:s0
+sys.usb.config          u:object_r:system_radio_prop:s0
+ril.                    u:object_r:radio_prop:s0
+gsm.                    u:object_r:radio_prop:s0
+persist.radio           u:object_r:radio_prop:s0
+
+net.                    u:object_r:system_prop:s0
+dev.                    u:object_r:system_prop:s0
+runtime.                u:object_r:system_prop:s0
+hw.                     u:object_r:system_prop:s0
+sys.                    u:object_r:system_prop:s0
+sys.powerctl            u:object_r:powerctl_prop:s0
+service.                u:object_r:system_prop:s0
+wlan.                   u:object_r:system_prop:s0
+dhcp.                   u:object_r:dhcp_prop:s0
+dhcp.bt-pan.result      u:object_r:pan_result_prop:s0
+bluetooth.              u:object_r:bluetooth_prop:s0
+
+debug.                  u:object_r:debug_prop:s0
+debug.db.               u:object_r:debuggerd_prop:s0
+log.                    u:object_r:shell_prop:s0
+service.adb.root        u:object_r:shell_prop:s0
+service.adb.tcp.port    u:object_r:shell_prop:s0
+# ACOS_MOD_BEGIN {amazon_sepolicy}
+amazon.fos_flags.wipe   u:object_r:shell_prop:s0
+amazon.fos_flags.noadbauth u:object_r:shell_prop:s0
+# ACOS_MOD_END {amazon_sepolicy}
+
+persist.audio.          u:object_r:audio_prop:s0
+persist.logd.           u:object_r:logd_prop:s0
+persist.vpartition.     u:object_r:vpartition_prop:s0
+persist.sys.            u:object_r:system_prop:s0
+persist.service.        u:object_r:system_prop:s0
+persist.service.bdroid. u:object_r:bluetooth_prop:s0
+persist.security.       u:object_r:system_prop:s0
+
+# ACOS_MOD_BEGIN {amazon_dolby}
+dolby.ds.               u:object_r:system_prop:s0
+dolby.audio             u:object_r:audio_prop:s0
+#ACOS_MOD_END {amazon_dolby}
+
+# selinux non-persistent properties
+selinux.                u:object_r:security_prop:s0
+
+# default property context
+*                       u:object_r:default_prop:s0
+
+# data partition encryption properties
+vold.                   u:object_r:vold_prop:s0
+crypto.                 u:object_r:vold_prop:s0
+
+# ro.build.fingerprint is either set in /system/build.prop, or is
+# set at runtime by system_server.
+build.fingerprint       u:object_r:fingerprint_prop:s0
+
+# ctl properties
+ctl.bootanim            u:object_r:ctl_bootanim_prop:s0
+# ACOS_MOD_BEGIN {autotrace}
+ctl.dump-atrace         u:object_r:ctl_dumpatrace_prop:s0
+ctl.setup-atrace        u:object_r:ctl_dumpatrace_prop:s0
+ctl.stop-atrace         u:object_r:ctl_dumpatrace_prop:s0
+autotrace.tags          u:object_r:system_prop:s0
+autotrace.enabled       u:object_r:system_prop:s0
+autotrace.header        u:object_r:system_prop:s0
+autotrace.buffer.kb     u:object_r:system_prop:s0
+# ACOS_MOD_END {autotrace}
+ctl.dumpstate           u:object_r:ctl_dumpstate_prop:s0
+# ACOS_MOD_BEGIN {amazon_bugreport_ext}
+ctl.mindumpstate        u:object_r:ctl_dumpstate_prop:s0
+# ACOS_MOD_END {amazon_bugreport_ext}
+ctl.fuse_               u:object_r:ctl_fuse_prop:s0
+ctl.mdnsd               u:object_r:ctl_mdnsd_prop:s0
+ctl.ril-daemon          u:object_r:ctl_rildaemon_prop:s0
+ctl.bugreport           u:object_r:ctl_bugreport_prop:s0
+ctl.dhcpcd_bt-pan       u:object_r:ctl_dhcp_pan_prop:s0
+ctl.                    u:object_r:ctl_default_prop:s0
+
+# NFC properties
+nfc.                    u:object_r:nfc_prop:s0
+# ACOS_MOD_BEGIN {amazon_sepolicy}
+persist.sys.ota.        u:object_r:amazon_ota_prop:s0
+sys.battery_charging_cv_level        u:object_r:amazon_kor_prop:s0
+# ACOS_MOD_END {amazon_sepolicy}
+# ACOS_MOD_BEGIN {vitals_collection_agent}
+vitals.restart_time     u:object_r:vitals_prop:s0
+vitals.restart_count    u:object_r:vitals_prop:s0
+# ACOS_MOD_END {vitals_collection_agent}
+# ACOS_MOD_BEGIN {wifi_logging}
+wifi.ro                 u:object_r:wifi_prop:s0
+# ACOS_MOD_END {wifi_logging}
+#line 1 "device/amazon/common/sepolicy/fsl/property_contexts"
+#============= andebootanimation ========
+persist.last.build.number         u:object_r:andebootani_prop:s0
+
+#============= devicetype ==============
+product.config.type  u:object_r:devicetype_prop:s0
+
+#============= epdc ====================
+epdc.loaded          u:object_r:epdc_prop:s0
+
+#============= locale ==================
+user.language        u:object_r:save_locale_prop:s0
+user.region          u:object_r:save_locale_prop:s0
+
+#============= klog ====================
+klog.done           u:object_r:klog_prop:s0
+
+#============ exitbootanimation =======
+sys.exit.bootanimation u:object_r:amazon_exit_bootanim:s0
